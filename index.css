@@ -10,6 +10,10 @@
   
 
 }
+@media (max-width: 500px) {
+  
+
+
 
 #list{
         margin: 0;
@@ -191,4 +195,6 @@ a:hover{
 }
 h1{
   color: blueviolet;
+}
+
 }
