@@ -1,0 +1,194 @@
+
+*::before,
+*::after{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0 auto;
+  overflow-x: hidden;
+  justify-content: space-arounds;
+  
+
+}
+
+#list{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: #90ee90;
+        display: flex;
+}
+nav li{
+    list-style: none;
+}
+.links {
+    display: flex;
+}
+
+.links li{
+    padding: 0px 80px;
+    padding-left: 140px;
+    font-size: large;
+    font-weight: bold;
+
+}
+
+a{
+text-decoration: none;
+color: rgb(0, 17, 255);
+font-size: large;
+font-family: sans-serif;
+
+}
+
+.img-container{
+  overflow: hidden;
+
+}
+.img-container figure{
+  position: relative;
+  width: 500%;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  height: 600px;
+  left: 0;
+  
+  animation: 20s img-container infinite;
+  overflow: hidden;
+}
+.img-container img{
+  float: left;
+  width: 20%;
+  max-width: 100%;
+}
+@keyframes img-container{
+  0%{
+    left: 0;
+  }
+  20% {
+
+    left: 0;
+
+  }
+  25%{
+    left: -100;
+
+  }
+  45%{
+    left: -100%;
+  }
+
+  50%{
+    left: -200%;
+
+  }
+  70%{
+    left: -200%;
+
+  }
+  75%{
+    left: -300%;
+
+  }
+  95%{
+    left: -300%;
+
+  }
+  100%{
+    left: -400%;
+
+  }
+
+}
+.about{
+  width: 40%;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+.club{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10rem;
+  background-color: azure;
+}
+.orange{
+  color: darkmagenta;
+  
+}
+.pink{
+  color: red;
+  text-align: center;
+}
+img:hover{
+  opacity: 0.8;
+}
+.green{
+  color: green;
+}
+.left-col{
+  width: 40%;
+}
+body{
+  letter-spacing: 2px;
+  line-height: 34px;
+}
+.right-col{
+ width: 50%;
+ row-gap: 20px;
+ grid-template-columns: auto auto;
+ display: grid;
+
+}
+.right-col img{
+  width: 300px;
+  height: 200px;
+}
+.gallary{
+  display: flex;
+  justify-content: space-between;
+  background-color: burlywood;
+}
+.coach-col{
+  display: flex;
+  justify-content: space-between;
+  background-color: rosybrown;
+  
+}
+.coach-col p{
+font-size: large;
+font-weight: bold;
+font-style: italic;
+}
+.footer{
+  background-color: #90ee90;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  
+  justify-content: space-between;
+  
+  
+}
+.footer img{
+  width: 5%;
+  align-items: center;
+  justify-content: center;
+
+}
+#ver{
+  border: 1px double black;
+  height: 300px;
+
+}
+h2{
+  text-transform: capitalize;
+  text-align: center;
+}
+a:hover{
+  color: hotpink;
+
+}
+h1{
+  color: blueviolet;
+}
