@@ -252,3 +252,65 @@ h1{
   }
   
 }
+@media screen and (max-width: 576px) {
+  
+  .header{
+    padding: 0 1rem;
+  }
+  .header #lists{
+    width: 40%;
+  }
+  .header #lists a{
+     font-size: 1rem;
+     font-weight: bold;
+  }
+  .img-container{
+   margin: auto;
+
+  }
+  .club{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+    background-color: beige;
+
+  }
+  .club .about{
+    margin: 0 auto;
+    width: 50%;
+
+  }
+  .club .ball{
+    width: 50rem;
+    text-align: center;
+  }
+.gallary{
+  display: flex;
+  justify-content: center;
+}
+.gallary .left-col{
+  width: 40%;
+}
+.gallary .right-col{
+  width: 50rem;
+}
+.coach-col{
+  display: flex;
+}
+.coach-col img{
+  width: 30rem;
+}
+.coach-col p{
+  width: 50rem;
+}
+.footer{
+  display: flex;
+  justify-content: center;
+}
+.footer a{
+  display: flex;
+  width: 2%;
+}
+}
