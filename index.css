@@ -311,6 +311,7 @@ h1{
 }
 .footer a{
   display: flex;
-  width: 2%;
+  width: 30px;
+
 }
 }
