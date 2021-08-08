@@ -194,4 +194,61 @@ a:hover{
 h1{
   color: blueviolet;
 }
+ 
+@media screen and (max-width: 992px) {
+  .header{
+    padding: 0 5rem;
+  }
+  nav #lists{
+    width: 40%;
+    font-size: 1.6rem;
+  }
+.img-container{
+  max-width: max-content;
+  margin: auto;
 
+}
+.img-container img{
+  justify-content: center;
+  padding: 0 auto;
+}
+
+.club .about{
+  width: 40%;
+
+}
+.club .ball{
+  width: 50rem;
+}
+.club{
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+}
+.gallary{
+  display: flex;
+  justify-content: space-between;
+}
+.gallary .left-col{
+  width: 40%;
+}
+.gallary .right-col{
+  width: 50rem;
+}
+  .coach-col{
+    display: flex;
+    justify-content: space-between;
+  }
+  .coach-col img{
+    float: left;
+    width: 40%;
+  }
+  .coach-col p{
+    width: 50rem;
+  }
+  .footer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+}
