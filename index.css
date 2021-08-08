@@ -241,10 +241,10 @@ h1{
   }
   .coach-col img{
     float: left;
-    width: 40%;
+    width: 50%;
   }
   .coach-col p{
-    width: 50rem;
+    width: 40rem;
   }
   .footer {
     display: flex;
